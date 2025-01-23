@@ -16,7 +16,7 @@ export const App = () => {
         natus inventore numquam nisi, dignissimos commodi itaque eligendi autem
         quo possimus praesentium.
       </p>
-      <Button onChange={() => console.log("click")}>Click Me</Button>
+      <Button onClick={() => console.log("click")}>Click Me</Button>
     </div>
   );
 };
