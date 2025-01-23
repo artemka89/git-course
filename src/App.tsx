@@ -1,3 +1,5 @@
+import { Button } from "./components/button";
+
 export const App = () => {
   return (
     <div className="w-[400px] ml-11">
@@ -14,6 +16,7 @@ export const App = () => {
         natus inventore numquam nisi, dignissimos commodi itaque eligendi autem
         quo possimus praesentium.
       </p>
+      <Button>Click</Button>
     </div>
   );
 };
